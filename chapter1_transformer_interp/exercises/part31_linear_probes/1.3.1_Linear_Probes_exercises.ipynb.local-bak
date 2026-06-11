@@ -188,7 +188,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 3,
    "metadata": {
     "colab": {
      "base_uri": "https://localhost:8080/"
@@ -243,7 +243,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 4,
    "metadata": {
     "id": "a1xA8Fth_rGO"
    },
@@ -294,7 +294,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 5,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -305,7 +305,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 6,
    "metadata": {
     "colab": {
      "base_uri": "https://localhost:8080/",
@@ -341,7 +341,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 7,
    "metadata": {
     "id": "cBkwe29f_rGR"
    },
@@ -353,155 +353,16 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 8,
    "metadata": {
     "id": "razDn5tN_rGS"
    },
    "outputs": [
     {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "556d05b26f2f449ab8d76fa80631394d",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "config.json:   0%|          | 0.00/610 [00:00<?, ?B/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "9957d7286f534bedbeb983d644937262",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "tokenizer_config.json:   0%|          | 0.00/776 [00:00<?, ?B/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "476d486962e544b18d4f8989a846f597",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "tokenizer.model:   0%|          | 0.00/500k [00:00<?, ?B/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "4d27ccca48074a6fa68f7dde10f7f59e",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "tokenizer.json:   0%|          | 0.00/1.84M [00:00<?, ?B/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "379dfe6cdb3246d28894e28a685acb3a",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "special_tokens_map.json:   0%|          | 0.00/414 [00:00<?, ?B/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "1f3c48a867ce442e8287d2bc75eb56dc",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "model.safetensors.index.json:   0%|          | 0.00/33.4k [00:00<?, ?B/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "f20f79055c75490dbd8992b9fac170e5",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "Downloading (incomplete total...): 0.00B [00:00, ?B/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "fffb114cff8d459abfcd9621c0f041e0",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "23c4115570064175a72020a49c0635d8",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "Loading weights:   0%|          | 0/363 [00:00<?, ?it/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "dcc5b89dda1f4fcba3aaa8bbc4bbc863",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "generation_config.json:   0%|          | 0.00/188 [00:00<?, ?B/s]"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
      "name": "stdout",
      "output_type": "stream",
      "text": [
+      "CPU mode: using cached activations in /Users/folusoogunlana/code/practice/ARENA/chapter1_transformer_interp/exercises/part31_linear_probes/activations/Llama-2-13b-hf\n",
       "Model: meta-llama/Llama-2-13b-hf\n",
       "Layers: 40, Hidden dim: 5120\n",
       "Probe layer: 14, Intervene layer: 8\n"
@@ -550,7 +411,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 9,
    "metadata": {},
    "outputs": [
     {
@@ -626,7 +487,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 10,
    "metadata": {
     "id": "LAyo3TJa_rGS"
    },
@@ -959,7 +820,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 11,
    "metadata": {
     "id": "nPjWX0Y-_rGT"
    },
@@ -1102,7 +963,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 12,
    "metadata": {
     "id": "_MxEQwu1_rGT"
    },
@@ -29764,7 +29625,15 @@
    "metadata": {
     "id": "lUX_WML2_rGh"
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "CPU mode: skipping few-shot evaluation (needs the live model on the GPU pod).\n"
+     ]
+    }
+   ],
    "source": [
     "def few_shot_evaluate(\n",
     "    statements: list[str],\n",
@@ -29801,7 +29670,8 @@
     "            outputs = model(**inputs)\n",
     "            last_idx = inputs[\"attention_mask\"].sum(dim=1).item() - 1\n",
     "            # shape: b, seq, vocab\n",
-    "            last_logits = outputs.logits[:, last_idx]\n",
+    "            # need arange because last_idx is a vector, not a single integer. The lengths must match\n",
+    "            last_logits = outputs.logits[t.arange(len(batch), device=model.device), last_idx]\n",
     "            # shape: b, vocab\n",
     "            probs = last_logits.softmax(dim=-1)\n",
     "            # shape: b, vocab\n",
@@ -30053,20 +29923,7 @@
     "                    # 2. For each batch element b, find end = attn_mask[b].sum()\n",
     "                    # 3. Patch at positions end - len_suffix and end - len_suffix - 1\n",
     "                    # 4. Return the modified output (keeping the tuple structure if applicable)\n",
-    "                    if isinstance(output, tuple):\n",
-    "                        hidden_states = output[0]\n",
-    "                    else:\n",
-    "                        hidden_states = output\n",
-    "                    \n",
-    "                    batch_seq_ends = attn_mask.sum(1)\n",
-    "                    # shape: b\n",
-    "                    for b, seq_end in enumerate(batch_seq_ends):\n",
-    "                        end = seq_end.item()\n",
-    "                        for offset in [end - len_suffix, end - len_suffix - 1]:\n",
-    "                            if 0 <= offset <= hidden_states.shape[1]:\n",
-    "                                hidden_states[b, offset, :] += scl * dir_vec\n",
-    "\n",
-    "                    return (hidden_states,) + output[1:] if isinstance(output, tuple) else hidden_states\n",
+    "                    raise NotImplementedError()\n",
     "                return hook_fn\n",
     "\n",
     "            for layer_idx in intervene_layers:\n",
